@@ -3,10 +3,11 @@ import vlc,time
 
 cam=cv2.VideoCapture(0)
 
-#Enter the address of the file you want to play below
 
+#facial recognition xml file
 fd=cv2.CascadeClassifier(r'C:\Users\DELL\AppData\Local\Programs\Python\Python36\Lib\site-packages\cv2\data\haarcascade_frontalface_alt.xml')
-v=vlc.MediaPlayer(r'C:\Users\DELL\Documents\AR\Ed.MKV')
+#path of the file to be played
+v=vlc.MediaPlayer(r'path of file')
 v.play()
 x=0
 
